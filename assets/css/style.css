@@ -1,19 +1,23 @@
 :root {
-    --primary-color: #fce138;
-    --secondary-color: #024e76;
-    --tertiary-color: #39a6b2;
+    --offwhite-color: #f4f1ea;
+    --blue-color: #92ADCB;
+    --lightbrown-color: #BFB087;
+    --darkbrown-color: #605C41;
+    --red-color: #AA162D;
+
   }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 body {
+    background-color: var(--offwhite-color);
     font-family: Helvetica, Arial, sans-serif;
     /* Comment */
-    color: var(--tertiary-color);
 }
 
 header h1 {
@@ -28,6 +32,12 @@ header h1 {
     justify-content:space-around;
     padding: 0 0 20px 0;
     font-size: 20px;
+    font-weight: lighter;
+}
+
+ul a {
+    text-decoration: none;
+    color:black
 }
 
 .about img {
@@ -57,6 +67,11 @@ header h1 {
 
 }
 
+.projects-container a {
+    color:black;
+    text-decoration: none;
+}
+
 .project img {
     flex-grow:1;
     height:100px;
@@ -82,7 +97,8 @@ header h1 {
     text-align: left;
     bottom: 3px;
     width: auto;
-    background-color: purple;
+    background-color: var(--offwhite-color);
+    opacity: 75%;
     padding: 10px;
 }
 
@@ -170,6 +186,7 @@ header h1 {
 
     .projects-container{
         display: flex;
+        align-items: center;
     }
 
     .project img {
