@@ -1,0 +1,112 @@
+:root {
+    --primary-color: #fce138;
+    --secondary-color: #024e76;
+    --tertiary-color: #39a6b2;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    /* Comment */
+    color: var(--tertiary-color);
+}
+
+header h1 {
+    text-align:center;
+    font-size: 35px;
+    padding: 50px 0 20px 0;
+}
+
+#top-menu-nav {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    padding: 0 0 20px 0;
+    font-size: 20px;
+
+}
+
+.about img {
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 0 20px 0;
+    object-fit: cover;
+}
+
+.about p {
+    padding: 10px 40px 20px 40px;
+    font-size: 18px;
+}
+
+.section h2 {
+    font-size: 25px;
+    padding: 0px 40px 0px 40px;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    padding: 0px 35px 10px 35px;
+
+}
+
+.project img {
+    flex-grow:1;
+    height:100px;
+    width: 140px;
+    object-fit: cover;
+}
+
+.top-project img {
+    flex-grow:2;
+    height:100px;
+    width:250px;
+    flex-basis:70%;
+}
+
+.project {
+    position: relative;
+    margin-top: 20px;
+    flex: 4;
+}
+
+.project div {
+    position: absolute;
+    text-align: left;
+    bottom: 3px;
+    width: auto;
+    background-color: purple;
+    padding: 10px;
+}
+
+.project div h3 {
+    font-size: 16px;
+}
+
+.project div p {
+    font-size: 16px;
+}
+
+.contact h2 {
+    font-size: 25px;
+    padding: 15px 40px 0px 40px;
+}
+
+.contact nav {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    padding: 10px 0 50px 0;
+    font-size: 18px;
+
+}
+
+
